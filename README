@@ -1,0 +1,7 @@
+This repository dedicated to portfolio betting on spread of goals. It helps to bet on EPL nearest matches which odds published on http://www.sportingindex.com - the only site providing odds for spread betting I have managed to find.
+Statistics of matches collected from the season 2009-2010 from http://int.soccerway.com.
+You already can start betting_part using start.sh and see a results before next round in EPL. Current statistics is up to 22.01.2017.
+1. Cuurent version just allows portfolio with a minimal risk, but I intend to improve the code to show a full range of available portfolios.
+2. This is a realy bad code because I write this very fast and didn't read needed manuals. I also improve some fragments (the major drawback is building a table of full posibility without using the tree traversal algorithm - probable cause of only posible portfolio interval from 2 to 4, with tree traversal algorithm it may be wider).
+3. This scripts use selenium library for Chrome and Tor. You should install it (but likely this fragments of code are also not perfect).
+4. Updating of statistics module is needed. 
